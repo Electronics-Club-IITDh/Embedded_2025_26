@@ -10,7 +10,7 @@ This includes projects and discussions that took place or were initiated during 
 > - Bootloader
 
 > ## Planned Discussion for this academic semester<br> (Jan 2026 - May 2026)
-> - Archietecture of MCU lik Ardiuno
+> - Archietecture of MCU like Ardiuno
 > - Interrupt Service Routine (ISR)
 > - Overview of Compilers and Operating System (OS)
 
