@@ -22,7 +22,7 @@ This includes projects and discussions that took place or were initiated during 
 > - Priyanshu
 > - Rohith
 > - Nihanth
-> - Shreyansh
+> - Shreyash
 > - Digvijay
 > - Haridarshan
 > - Kartik
