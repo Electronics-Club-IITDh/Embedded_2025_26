@@ -968,9 +968,6 @@
 #define UCSZ01  2
 #define UCSZ00  1
 #define UCPOL0  0
-
-/* Reserved [0xC3] */
-
 /* Combine UBRR0L and UBRR0H */
 #define UBRR0   _SFR_MEM16(0xC4)
 
