@@ -43,14 +43,16 @@ int main(){
 
   i=0;
   while(i<100){
-    str[i]=UART_Recieve();
+    str[i]=UART_Receive();
+    UART_Transmit(str[i]);
     if(str[i]=='\r') break;  // User Pressed Enter so it should stop receiving 
     i++;
   }
-  str[i]='\0' // End of string
+  str[i]='\0'; // End of string
+  UART_Transmit('\n');
 
-  UART_Transmit_String("\r\nHi! ");
-  UART_Transmit_String(str);
+  UART_Transmit_string("\r\nHi! ");
+  UART_Transmit_string(str);
   }
 
   return 0;
